@@ -1,0 +1,167 @@
+/*базовые настройки*/
+body{
+    font-family: arial tahoma;
+     background: #c400ff url(img/T4.png)  bottom  center no-repeat;
+    background-attachment: fixed;
+     margin: 0px;
+    font-size: 14px;
+} 
+/*кнопка фасябук*/
+.facebook{
+    position: fixed;
+    top: 45%;
+    left: -20px;
+}
+
+.facebook:hover{
+    position: fixed;
+    top: 45%;
+    left: 0px;
+    cursor: pointer;
+}
+
+/*основная таблица*/
+#main-table {
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+}
+
+/* шапка сайта*/
+#header{ 
+     background:rgb(87, 95, 89);
+    height: 250px;
+    
+}
+
+#logo{
+    background: url(userfales/272.jpg) top center no-repeat;
+    display: block;
+    width: 200px;
+    height: 250px; 
+    margin-left: 100px;
+    vertical-align: top;
+}
+ 
+#youtube{
+    background: url(img/T3.png) top center no-repeat;
+     display: block;
+    width: 50px;
+    height: 100px; 
+    position: relative;
+    left: 770px;
+    bottom:  200px;
+}
+#youtube:hover{
+     left: 775px;
+}
+/*верхнее меню сайта*/
+#menu{
+    background: black;
+     height: 31px;
+}
+
+#menu a{
+   color: #fff;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+#menu a:hover{
+   color: green;
+    
+}
+ 
+/*блок контента*/
+#content{
+    background: #fff;
+    height: 600px;
+    vertical-align:top; 
+    padding:40px 0;/*неработает хоть ты тресни, но если тоже вставить в news то пашет. х.з! вставил это в новости*/
+
+        
+}
+/*новости*/
+.news{
+    width: 675px;
+   padding:40px 0;
+}
+
+.news a{ 
+    color: #6914cc;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+ 
+.news a:hover{ 
+    text-decoration: underline;
+   
+}
+
+.news-titel a, read-more a{
+    padding-left:10px;
+}
+
+.news-text{
+    margin: 10px 0 10px 10px;
+    text-align: justify;
+}  
+
+.read-more a{ 
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.news-line{
+    margin: 10px 0;
+    text-align: center;
+}
+ 
+/*подвал сайта*/
+#footer{
+     background: #666;
+     height: 140px;
+}
+.footer-block{
+     float: left;
+
+}
+.footer-block a{
+     color: aliceblue;
+     text-decoration: none;
+    font-size: 12px;
+    display: block;
+    margin: 2px 50px;
+}
+ 
+.footer-block a:hover{
+    color: green;
+}
+ 
+.footer-line{
+    background: url(img/T1.png) top center repeat-y;
+    height: 100px;
+    width: 1px;
+    float: left;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
